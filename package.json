@@ -1,7 +1,7 @@
 {
-  "name": "solarchain-projesi-sunum",
+  "name": "solarchain",
   "version": "1.0.0",
-  "description": "SolarChain sunum icin sadeleştirilmiş proje.",
+  "description": "A neighborhood-scale renewable energy marketplace and simulation platform.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

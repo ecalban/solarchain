@@ -333,5 +333,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, HOST, () => {
-  console.log(`SolarChain sunum sürümü: http://${HOST}:${PORT}`);
+  console.log(`SolarChain is running at http://${HOST}:${PORT}`);
 });
