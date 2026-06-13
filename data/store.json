@@ -1,0 +1,1425 @@
+{
+  "users": [
+    {
+      "id": "usr_admin",
+      "adSoyad": "SolarChain Yönetici",
+      "email": "admin@solarchain.local",
+      "salt": "admin-salt",
+      "passwordHash": "91338f101064650107a448681e2d0b9cb1a344d70c306ace148e869fd69b779e",
+      "rol": "yonetici",
+      "bakiye": 5000,
+      "mahalle": "Merkez Mahallesi",
+      "panelGucu": 8,
+      "gunlukTuketim": 10,
+      "durum": "aktif",
+      "createdAt": "2026-05-19T09:00:00.000Z"
+    },
+    {
+      "id": "usr_uretici",
+      "adSoyad": "Eren Çalban",
+      "email": "uretici@solarchain.local",
+      "salt": "uretici-salt",
+      "passwordHash": "f6bc47799a3f8e04e1a66c9eb5bf9fb75311545c2a4a4b740371ea5e0c90dc7f",
+      "rol": "uretici",
+      "bakiye": 2450,
+      "mahalle": "Güneşli Mahallesi",
+      "panelGucu": 6,
+      "gunlukTuketim": 4,
+      "durum": "aktif",
+      "createdAt": "2026-05-19T09:05:00.000Z"
+    },
+    {
+      "id": "usr_alici",
+      "adSoyad": "Mahalle Sakini",
+      "email": "alici@solarchain.local",
+      "salt": "alici-salt",
+      "passwordHash": "d575fe13d8bfcbc5e4ce4c199dd3c30dc0c326fae5840d2ecd3e7a89934a27a7",
+      "rol": "alici",
+      "bakiye": 1850,
+      "mahalle": "Güneşli Mahallesi",
+      "panelGucu": 0,
+      "gunlukTuketim": 9,
+      "durum": "aktif",
+      "createdAt": "2026-05-19T09:08:00.000Z"
+    },
+    {
+      "id": "usr_demo_site",
+      "adSoyad": "Yeşil Vadi Sitesi",
+      "email": "site@solarchain.local",
+      "salt": "usr_demo_site-salt",
+      "passwordHash": "da98d579030eb88c6833ed2299de94e9ff4b6af69caa43f5e2865017ae40abd4",
+      "rol": "uretici",
+      "bakiye": 3720,
+      "mahalle": "Yeşil Vadi Sitesi",
+      "panelGucu": 18,
+      "gunlukTuketim": 12,
+      "durum": "aktif",
+      "createdAt": "2026-05-20T08:30:00.000Z"
+    },
+    {
+      "id": "usr_demo_okul",
+      "adSoyad": "Atatürk Ortaokulu",
+      "email": "okul@solarchain.local",
+      "salt": "usr_demo_okul-salt",
+      "passwordHash": "3de1dd68675c36a925e00370e570620de1e5e64db22a07987f40acb13d65e47f",
+      "rol": "uretici",
+      "bakiye": 4150,
+      "mahalle": "Okul Caddesi",
+      "panelGucu": 22,
+      "gunlukTuketim": 16,
+      "durum": "aktif",
+      "createdAt": "2026-05-20T09:10:00.000Z"
+    },
+    {
+      "id": "usr_demo_apartman",
+      "adSoyad": "Güneş Apartmanı",
+      "email": "apartman@solarchain.local",
+      "salt": "usr_demo_apartman-salt",
+      "passwordHash": "045a662ba4c0c4b0ad14b606e773b2ba8b0554a27c8ae2dc60de8caa7c061de7",
+      "rol": "uretici",
+      "bakiye": 2980,
+      "mahalle": "Merkez Mahallesi",
+      "panelGucu": 12,
+      "gunlukTuketim": 9,
+      "durum": "aktif",
+      "createdAt": "2026-05-20T09:40:00.000Z"
+    },
+    {
+      "id": "usr_demo_kafe",
+      "adSoyad": "Mahalle Kafe",
+      "email": "kafe@solarchain.local",
+      "salt": "usr_demo_kafe-salt",
+      "passwordHash": "ee43e397e4eadd93eb2ed35b7f21a40f6df0cc3a1385c43c78a469922e1c32bb",
+      "rol": "alici",
+      "bakiye": 1260,
+      "mahalle": "Çarşı Mahallesi",
+      "panelGucu": 0,
+      "gunlukTuketim": 18,
+      "durum": "aktif",
+      "createdAt": "2026-05-20T10:05:00.000Z"
+    },
+    {
+      "id": "usr_demo_market",
+      "adSoyad": "Enerji Market",
+      "email": "market@solarchain.local",
+      "salt": "usr_demo_market-salt",
+      "passwordHash": "0bf192964c23ce515d819654ca4d2f240719e2a572e5121cf77de6a7cea28c0a",
+      "rol": "alici",
+      "bakiye": 1840,
+      "mahalle": "Pazar Sokak",
+      "panelGucu": 0,
+      "gunlukTuketim": 24,
+      "durum": "aktif",
+      "createdAt": "2026-05-20T10:25:00.000Z"
+    },
+    {
+      "id": "usr_demo_saglik",
+      "adSoyad": "Aile Sağlığı Merkezi",
+      "email": "saglik@solarchain.local",
+      "salt": "usr_demo_saglik-salt",
+      "passwordHash": "fb8281d15a3e99b9bc5677535b5a983c1412a519d52a77cc16446c09093e5f44",
+      "rol": "alici",
+      "bakiye": 2300,
+      "mahalle": "Okul Caddesi",
+      "panelGucu": 0,
+      "gunlukTuketim": 20,
+      "durum": "aktif",
+      "createdAt": "2026-05-20T10:50:00.000Z"
+    }
+  ],
+  "listings": [
+    {
+      "id": "lst_1001",
+      "ureticiId": "usr_uretici",
+      "enerjiMiktari": 48,
+      "kalanEnerji": 48,
+      "baslangicFiyati": 3.25,
+      "currentPrice": 3.26,
+      "gecerlilikSuresi": 180,
+      "aciklama": "Çatı panelinden öğle üretimi",
+      "mahalle": "Güneşli Mahallesi",
+      "panelGucu": 6,
+      "onayDurumu": "Onaylandı",
+      "ilanDurumu": "Aktif",
+      "priceHistory": [
+        {
+          "time": "2026-05-20T17:19:06.178Z",
+          "price": 3.19
+        },
+        {
+          "time": "2026-05-20T17:19:08.179Z",
+          "price": 3.23
+        },
+        {
+          "time": "2026-05-20T17:19:10.180Z",
+          "price": 3.28
+        },
+        {
+          "time": "2026-05-20T17:19:12.181Z",
+          "price": 3.31
+        },
+        {
+          "time": "2026-05-20T17:19:14.183Z",
+          "price": 3.34
+        },
+        {
+          "time": "2026-05-20T17:19:16.184Z",
+          "price": 3.36
+        },
+        {
+          "time": "2026-05-20T17:19:18.186Z",
+          "price": 3.37
+        },
+        {
+          "time": "2026-05-20T17:19:20.186Z",
+          "price": 3.36
+        },
+        {
+          "time": "2026-05-20T17:19:22.187Z",
+          "price": 3.34
+        },
+        {
+          "time": "2026-05-20T17:19:24.189Z",
+          "price": 3.32
+        },
+        {
+          "time": "2026-05-20T17:19:26.191Z",
+          "price": 3.29
+        },
+        {
+          "time": "2026-05-20T17:19:28.193Z",
+          "price": 3.26
+        },
+        {
+          "time": "2026-05-20T17:19:30.193Z",
+          "price": 3.23
+        },
+        {
+          "time": "2026-05-20T17:19:32.194Z",
+          "price": 3.21
+        },
+        {
+          "time": "2026-05-20T17:19:34.194Z",
+          "price": 3.2
+        },
+        {
+          "time": "2026-05-20T17:19:36.194Z",
+          "price": 3.19
+        },
+        {
+          "time": "2026-05-20T17:19:38.195Z",
+          "price": 3.2
+        },
+        {
+          "time": "2026-05-20T17:19:40.196Z",
+          "price": 3.22
+        },
+        {
+          "time": "2026-05-20T17:19:42.197Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-05-20T17:19:44.198Z",
+          "price": 3.27
+        },
+        {
+          "time": "2026-06-03T08:46:52.062Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-06-03T08:47:06.902Z",
+          "price": 3.26
+        },
+        {
+          "time": "2026-06-03T08:50:58.136Z",
+          "price": 3.21
+        },
+        {
+          "time": "2026-06-03T08:51:01.737Z",
+          "price": 3.21
+        },
+        {
+          "time": "2026-06-03T08:51:02.624Z",
+          "price": 3.22
+        },
+        {
+          "time": "2026-06-03T08:51:03.179Z",
+          "price": 3.22
+        },
+        {
+          "time": "2026-06-03T08:51:03.857Z",
+          "price": 3.22
+        },
+        {
+          "time": "2026-06-03T08:51:04.374Z",
+          "price": 3.22
+        },
+        {
+          "time": "2026-06-03T08:51:05.618Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-06-03T08:51:06.446Z",
+          "price": 3.26
+        }
+      ],
+      "seed": 11,
+      "createdAt": "2026-05-19T10:00:00.000Z"
+    },
+    {
+      "id": "lst_1002",
+      "ureticiId": "usr_admin",
+      "enerjiMiktari": 32,
+      "kalanEnerji": 32,
+      "baslangicFiyati": 3.42,
+      "currentPrice": 3.46,
+      "gecerlilikSuresi": 120,
+      "aciklama": "Site ortak alan üretim fazlası",
+      "mahalle": "Merkez Mahallesi",
+      "panelGucu": 8,
+      "onayDurumu": "Onaylandı",
+      "ilanDurumu": "Aktif",
+      "priceHistory": [
+        {
+          "time": "2026-05-20T17:19:06.178Z",
+          "price": 3.48
+        },
+        {
+          "time": "2026-05-20T17:19:08.179Z",
+          "price": 3.49
+        },
+        {
+          "time": "2026-05-20T17:19:10.180Z",
+          "price": 3.48
+        },
+        {
+          "time": "2026-05-20T17:19:12.181Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-05-20T17:19:14.183Z",
+          "price": 3.44
+        },
+        {
+          "time": "2026-05-20T17:19:16.184Z",
+          "price": 3.41
+        },
+        {
+          "time": "2026-05-20T17:19:18.186Z",
+          "price": 3.38
+        },
+        {
+          "time": "2026-05-20T17:19:20.186Z",
+          "price": 3.36
+        },
+        {
+          "time": "2026-05-20T17:19:22.187Z",
+          "price": 3.34
+        },
+        {
+          "time": "2026-05-20T17:19:24.189Z",
+          "price": 3.33
+        },
+        {
+          "time": "2026-05-20T17:19:26.191Z",
+          "price": 3.34
+        },
+        {
+          "time": "2026-05-20T17:19:28.193Z",
+          "price": 3.35
+        },
+        {
+          "time": "2026-05-20T17:19:30.193Z",
+          "price": 3.38
+        },
+        {
+          "time": "2026-05-20T17:19:32.194Z",
+          "price": 3.41
+        },
+        {
+          "time": "2026-05-20T17:19:34.194Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-05-20T17:19:36.194Z",
+          "price": 3.5
+        },
+        {
+          "time": "2026-05-20T17:19:38.195Z",
+          "price": 3.53
+        },
+        {
+          "time": "2026-05-20T17:19:40.196Z",
+          "price": 3.56
+        },
+        {
+          "time": "2026-05-20T17:19:42.197Z",
+          "price": 3.58
+        },
+        {
+          "time": "2026-05-20T17:19:44.198Z",
+          "price": 3.59
+        },
+        {
+          "time": "2026-06-03T08:46:52.062Z",
+          "price": 3.39
+        },
+        {
+          "time": "2026-06-03T08:47:06.902Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-06-03T08:50:58.136Z",
+          "price": 3.39
+        },
+        {
+          "time": "2026-06-03T08:51:01.737Z",
+          "price": 3.43
+        },
+        {
+          "time": "2026-06-03T08:51:02.624Z",
+          "price": 3.44
+        },
+        {
+          "time": "2026-06-03T08:51:03.179Z",
+          "price": 3.44
+        },
+        {
+          "time": "2026-06-03T08:51:03.857Z",
+          "price": 3.45
+        },
+        {
+          "time": "2026-06-03T08:51:04.374Z",
+          "price": 3.45
+        },
+        {
+          "time": "2026-06-03T08:51:05.618Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-06-03T08:51:06.446Z",
+          "price": 3.46
+        }
+      ],
+      "seed": 24,
+      "createdAt": "2026-05-19T10:12:00.000Z"
+    },
+    {
+      "id": "lst_1003",
+      "ureticiId": "usr_uretici",
+      "enerjiMiktari": 18.2,
+      "kalanEnerji": 18.2,
+      "baslangicFiyati": 3.45,
+      "currentPrice": 3.45,
+      "gecerlilikSuresi": 120,
+      "aciklama": "Simülasyon ilanı test",
+      "mahalle": "Güneşli Mahallesi",
+      "panelGucu": 6,
+      "onayDurumu": "Beklemede",
+      "ilanDurumu": "Beklemede",
+      "priceHistory": [
+        {
+          "time": "2026-05-20T17:03:36.268Z",
+          "price": 3.45
+        }
+      ],
+      "seed": 10,
+      "createdAt": "2026-05-20T17:03:36.268Z"
+    },
+    {
+      "id": "lst_demo_site_01",
+      "ureticiId": "usr_demo_site",
+      "enerjiMiktari": 85,
+      "kalanEnerji": 72,
+      "baslangicFiyati": 3.58,
+      "currentPrice": 3.61,
+      "gecerlilikSuresi": 240,
+      "aciklama": "Site çatılarındaki ortak güneş paneli üretim fazlası",
+      "mahalle": "Yeşil Vadi Sitesi",
+      "panelGucu": 18,
+      "onayDurumu": "Onaylandı",
+      "ilanDurumu": "Aktif",
+      "priceHistory": [
+        {
+          "time": "2026-05-22T07:20:00.000Z",
+          "price": 3.72
+        },
+        {
+          "time": "2026-05-22T07:40:00.000Z",
+          "price": 3.68
+        },
+        {
+          "time": "2026-05-22T08:00:00.000Z",
+          "price": 3.64
+        },
+        {
+          "time": "2026-05-22T08:20:00.000Z",
+          "price": 3.59
+        },
+        {
+          "time": "2026-05-22T08:40:00.000Z",
+          "price": 3.53
+        },
+        {
+          "time": "2026-05-22T09:00:00.000Z",
+          "price": 3.49
+        },
+        {
+          "time": "2026-05-22T09:20:00.000Z",
+          "price": 3.44
+        },
+        {
+          "time": "2026-05-22T09:40:00.000Z",
+          "price": 3.42
+        },
+        {
+          "time": "2026-05-22T10:00:00.000Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-05-22T10:20:00.000Z",
+          "price": 3.41
+        },
+        {
+          "time": "2026-05-22T10:40:00.000Z",
+          "price": 3.42
+        },
+        {
+          "time": "2026-05-22T11:00:00.000Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-05-22T11:20:00.000Z",
+          "price": 3.5
+        },
+        {
+          "time": "2026-05-22T11:40:00.000Z",
+          "price": 3.55
+        },
+        {
+          "time": "2026-05-22T12:00:00.000Z",
+          "price": 3.6
+        },
+        {
+          "time": "2026-05-22T12:20:00.000Z",
+          "price": 3.64
+        },
+        {
+          "time": "2026-05-22T12:40:00.000Z",
+          "price": 3.68
+        },
+        {
+          "time": "2026-05-22T13:00:00.000Z",
+          "price": 3.7
+        },
+        {
+          "time": "2026-05-22T13:20:00.000Z",
+          "price": 3.71
+        },
+        {
+          "time": "2026-05-22T13:40:00.000Z",
+          "price": 3.71
+        },
+        {
+          "time": "2026-06-03T08:46:52.062Z",
+          "price": 3.54
+        },
+        {
+          "time": "2026-06-03T08:47:06.902Z",
+          "price": 3.62
+        },
+        {
+          "time": "2026-06-03T08:50:58.136Z",
+          "price": 3.56
+        },
+        {
+          "time": "2026-06-03T08:51:01.737Z",
+          "price": 3.58
+        },
+        {
+          "time": "2026-06-03T08:51:02.624Z",
+          "price": 3.59
+        },
+        {
+          "time": "2026-06-03T08:51:03.179Z",
+          "price": 3.59
+        },
+        {
+          "time": "2026-06-03T08:51:03.857Z",
+          "price": 3.6
+        },
+        {
+          "time": "2026-06-03T08:51:04.374Z",
+          "price": 3.6
+        },
+        {
+          "time": "2026-06-03T08:51:05.618Z",
+          "price": 3.61
+        },
+        {
+          "time": "2026-06-03T08:51:06.446Z",
+          "price": 3.61
+        }
+      ],
+      "seed": 42,
+      "createdAt": "2026-05-22T08:00:00.000Z"
+    },
+    {
+      "id": "lst_demo_okul_01",
+      "ureticiId": "usr_demo_okul",
+      "enerjiMiktari": 64,
+      "kalanEnerji": 50.5,
+      "baslangicFiyati": 3.44,
+      "currentPrice": 3.4,
+      "gecerlilikSuresi": 180,
+      "aciklama": "Okul binası gündüz üretiminden temiz enerji",
+      "mahalle": "Okul Caddesi",
+      "panelGucu": 22,
+      "onayDurumu": "Onaylandı",
+      "ilanDurumu": "Aktif",
+      "priceHistory": [
+        {
+          "time": "2026-05-22T07:20:00.000Z",
+          "price": 3.35
+        },
+        {
+          "time": "2026-05-22T07:40:00.000Z",
+          "price": 3.3
+        },
+        {
+          "time": "2026-05-22T08:00:00.000Z",
+          "price": 3.28
+        },
+        {
+          "time": "2026-05-22T08:20:00.000Z",
+          "price": 3.26
+        },
+        {
+          "time": "2026-05-22T08:40:00.000Z",
+          "price": 3.27
+        },
+        {
+          "time": "2026-05-22T09:00:00.000Z",
+          "price": 3.28
+        },
+        {
+          "time": "2026-05-22T09:20:00.000Z",
+          "price": 3.32
+        },
+        {
+          "time": "2026-05-22T09:40:00.000Z",
+          "price": 3.36
+        },
+        {
+          "time": "2026-05-22T10:00:00.000Z",
+          "price": 3.41
+        },
+        {
+          "time": "2026-05-22T10:20:00.000Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-05-22T10:40:00.000Z",
+          "price": 3.5
+        },
+        {
+          "time": "2026-05-22T11:00:00.000Z",
+          "price": 3.54
+        },
+        {
+          "time": "2026-05-22T11:20:00.000Z",
+          "price": 3.56
+        },
+        {
+          "time": "2026-05-22T11:40:00.000Z",
+          "price": 3.57
+        },
+        {
+          "time": "2026-05-22T12:00:00.000Z",
+          "price": 3.57
+        },
+        {
+          "time": "2026-05-22T12:20:00.000Z",
+          "price": 3.55
+        },
+        {
+          "time": "2026-05-22T12:40:00.000Z",
+          "price": 3.53
+        },
+        {
+          "time": "2026-05-22T13:00:00.000Z",
+          "price": 3.49
+        },
+        {
+          "time": "2026-05-22T13:20:00.000Z",
+          "price": 3.45
+        },
+        {
+          "time": "2026-05-22T13:40:00.000Z",
+          "price": 3.42
+        },
+        {
+          "time": "2026-06-03T08:46:52.062Z",
+          "price": 3.47
+        },
+        {
+          "time": "2026-06-03T08:47:06.902Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-06-03T08:50:58.136Z",
+          "price": 3.43
+        },
+        {
+          "time": "2026-06-03T08:51:01.737Z",
+          "price": 3.41
+        },
+        {
+          "time": "2026-06-03T08:51:02.624Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-06-03T08:51:03.179Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-06-03T08:51:03.857Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-06-03T08:51:04.374Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-06-03T08:51:05.618Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-06-03T08:51:06.446Z",
+          "price": 3.4
+        }
+      ],
+      "seed": 58,
+      "createdAt": "2026-05-22T08:25:00.000Z"
+    },
+    {
+      "id": "lst_demo_apartman_01",
+      "ureticiId": "usr_demo_apartman",
+      "enerjiMiktari": 28.5,
+      "kalanEnerji": 21,
+      "baslangicFiyati": 3.28,
+      "currentPrice": 3.29,
+      "gecerlilikSuresi": 120,
+      "aciklama": "Apartman ortak alan panelinden öğle üretimi",
+      "mahalle": "Merkez Mahallesi",
+      "panelGucu": 12,
+      "onayDurumu": "Onaylandı",
+      "ilanDurumu": "Aktif",
+      "priceHistory": [
+        {
+          "time": "2026-05-22T07:20:00.000Z",
+          "price": 3.11
+        },
+        {
+          "time": "2026-05-22T07:40:00.000Z",
+          "price": 3.12
+        },
+        {
+          "time": "2026-05-22T08:00:00.000Z",
+          "price": 3.16
+        },
+        {
+          "time": "2026-05-22T08:20:00.000Z",
+          "price": 3.2
+        },
+        {
+          "time": "2026-05-22T08:40:00.000Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-05-22T09:00:00.000Z",
+          "price": 3.3
+        },
+        {
+          "time": "2026-05-22T09:20:00.000Z",
+          "price": 3.34
+        },
+        {
+          "time": "2026-05-22T09:40:00.000Z",
+          "price": 3.38
+        },
+        {
+          "time": "2026-05-22T10:00:00.000Z",
+          "price": 3.4
+        },
+        {
+          "time": "2026-05-22T10:20:00.000Z",
+          "price": 3.41
+        },
+        {
+          "time": "2026-05-22T10:40:00.000Z",
+          "price": 3.41
+        },
+        {
+          "time": "2026-05-22T11:00:00.000Z",
+          "price": 3.39
+        },
+        {
+          "time": "2026-05-22T11:20:00.000Z",
+          "price": 3.37
+        },
+        {
+          "time": "2026-05-22T11:40:00.000Z",
+          "price": 3.33
+        },
+        {
+          "time": "2026-05-22T12:00:00.000Z",
+          "price": 3.29
+        },
+        {
+          "time": "2026-05-22T12:20:00.000Z",
+          "price": 3.26
+        },
+        {
+          "time": "2026-05-22T12:40:00.000Z",
+          "price": 3.23
+        },
+        {
+          "time": "2026-05-22T13:00:00.000Z",
+          "price": 3.21
+        },
+        {
+          "time": "2026-05-22T13:20:00.000Z",
+          "price": 3.2
+        },
+        {
+          "time": "2026-05-22T13:40:00.000Z",
+          "price": 3.2
+        },
+        {
+          "time": "2026-06-03T08:46:52.062Z",
+          "price": 3.28
+        },
+        {
+          "time": "2026-06-03T08:47:06.902Z",
+          "price": 3.29
+        },
+        {
+          "time": "2026-06-03T08:50:58.136Z",
+          "price": 3.24
+        },
+        {
+          "time": "2026-06-03T08:51:01.737Z",
+          "price": 3.24
+        },
+        {
+          "time": "2026-06-03T08:51:02.624Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-06-03T08:51:03.179Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-06-03T08:51:03.857Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-06-03T08:51:04.374Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-06-03T08:51:05.618Z",
+          "price": 3.28
+        },
+        {
+          "time": "2026-06-03T08:51:06.446Z",
+          "price": 3.29
+        }
+      ],
+      "seed": 23,
+      "createdAt": "2026-05-22T09:05:00.000Z"
+    },
+    {
+      "id": "lst_demo_pending_01",
+      "ureticiId": "usr_uretici",
+      "enerjiMiktari": 19.5,
+      "kalanEnerji": 19.5,
+      "baslangicFiyati": 3.36,
+      "currentPrice": 3.36,
+      "gecerlilikSuresi": 120,
+      "aciklama": "Simülasyondan oluşturulmuş onay bekleyen demo ilan",
+      "mahalle": "Güneşli Mahallesi",
+      "panelGucu": 6,
+      "onayDurumu": "Beklemede",
+      "ilanDurumu": "Beklemede",
+      "priceHistory": [
+        {
+          "time": "2026-05-22T06:00:00.000Z",
+          "price": 3.52
+        },
+        {
+          "time": "2026-05-22T06:20:00.000Z",
+          "price": 3.52
+        },
+        {
+          "time": "2026-05-22T06:40:00.000Z",
+          "price": 3.5
+        },
+        {
+          "time": "2026-05-22T07:00:00.000Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-05-22T07:20:00.000Z",
+          "price": 3.42
+        },
+        {
+          "time": "2026-05-22T07:40:00.000Z",
+          "price": 3.37
+        },
+        {
+          "time": "2026-05-22T08:00:00.000Z",
+          "price": 3.31
+        },
+        {
+          "time": "2026-05-22T08:20:00.000Z",
+          "price": 3.27
+        },
+        {
+          "time": "2026-05-22T08:40:00.000Z",
+          "price": 3.22
+        },
+        {
+          "time": "2026-05-22T09:00:00.000Z",
+          "price": 3.2
+        },
+        {
+          "time": "2026-05-22T09:20:00.000Z",
+          "price": 3.18
+        },
+        {
+          "time": "2026-05-22T09:40:00.000Z",
+          "price": 3.19
+        },
+        {
+          "time": "2026-05-22T10:00:00.000Z",
+          "price": 3.2
+        },
+        {
+          "time": "2026-05-22T10:20:00.000Z",
+          "price": 3.24
+        },
+        {
+          "time": "2026-05-22T10:40:00.000Z",
+          "price": 3.28
+        },
+        {
+          "time": "2026-05-22T11:00:00.000Z",
+          "price": 3.33
+        },
+        {
+          "time": "2026-05-22T11:20:00.000Z",
+          "price": 3.38
+        },
+        {
+          "time": "2026-05-22T11:40:00.000Z",
+          "price": 3.42
+        },
+        {
+          "time": "2026-05-22T12:00:00.000Z",
+          "price": 3.46
+        },
+        {
+          "time": "2026-05-22T12:20:00.000Z",
+          "price": 3.48
+        },
+        {
+          "time": "2026-05-22T12:40:00.000Z",
+          "price": 3.49
+        },
+        {
+          "time": "2026-05-22T13:00:00.000Z",
+          "price": 3.49
+        },
+        {
+          "time": "2026-05-22T13:20:00.000Z",
+          "price": 3.47
+        },
+        {
+          "time": "2026-05-22T13:40:00.000Z",
+          "price": 3.45
+        }
+      ],
+      "seed": 12,
+      "createdAt": "2026-05-22T09:45:00.000Z"
+    },
+    {
+      "id": "lst_demo_sold_01",
+      "ureticiId": "usr_demo_site",
+      "enerjiMiktari": 16,
+      "kalanEnerji": 0,
+      "baslangicFiyati": 3.2,
+      "currentPrice": 3.24,
+      "gecerlilikSuresi": 90,
+      "aciklama": "Sabah üretimi tamamen satıldı",
+      "mahalle": "Yeşil Vadi Sitesi",
+      "panelGucu": 18,
+      "onayDurumu": "Onaylandı",
+      "ilanDurumu": "Satıldı",
+      "priceHistory": [
+        {
+          "time": "2026-05-22T06:00:00.000Z",
+          "price": 3.02
+        },
+        {
+          "time": "2026-05-22T06:20:00.000Z",
+          "price": 3.03
+        },
+        {
+          "time": "2026-05-22T06:40:00.000Z",
+          "price": 3.04
+        },
+        {
+          "time": "2026-05-22T07:00:00.000Z",
+          "price": 3.08
+        },
+        {
+          "time": "2026-05-22T07:20:00.000Z",
+          "price": 3.12
+        },
+        {
+          "time": "2026-05-22T07:40:00.000Z",
+          "price": 3.17
+        },
+        {
+          "time": "2026-05-22T08:00:00.000Z",
+          "price": 3.22
+        },
+        {
+          "time": "2026-05-22T08:20:00.000Z",
+          "price": 3.26
+        },
+        {
+          "time": "2026-05-22T08:40:00.000Z",
+          "price": 3.3
+        },
+        {
+          "time": "2026-05-22T09:00:00.000Z",
+          "price": 3.32
+        },
+        {
+          "time": "2026-05-22T09:20:00.000Z",
+          "price": 3.33
+        },
+        {
+          "time": "2026-05-22T09:40:00.000Z",
+          "price": 3.33
+        },
+        {
+          "time": "2026-05-22T10:00:00.000Z",
+          "price": 3.31
+        },
+        {
+          "time": "2026-05-22T10:20:00.000Z",
+          "price": 3.29
+        },
+        {
+          "time": "2026-05-22T10:40:00.000Z",
+          "price": 3.25
+        },
+        {
+          "time": "2026-05-22T11:00:00.000Z",
+          "price": 3.21
+        },
+        {
+          "time": "2026-05-22T11:20:00.000Z",
+          "price": 3.18
+        },
+        {
+          "time": "2026-05-22T11:40:00.000Z",
+          "price": 3.15
+        },
+        {
+          "time": "2026-05-22T12:00:00.000Z",
+          "price": 3.13
+        },
+        {
+          "time": "2026-05-22T12:20:00.000Z",
+          "price": 3.12
+        },
+        {
+          "time": "2026-05-22T12:40:00.000Z",
+          "price": 3.12
+        },
+        {
+          "time": "2026-05-22T13:00:00.000Z",
+          "price": 3.14
+        },
+        {
+          "time": "2026-05-22T13:20:00.000Z",
+          "price": 3.16
+        },
+        {
+          "time": "2026-05-22T13:40:00.000Z",
+          "price": 3.19
+        }
+      ],
+      "seed": 74,
+      "createdAt": "2026-05-21T10:30:00.000Z"
+    },
+    {
+      "id": "lst_demo_rejected_01",
+      "ureticiId": "usr_demo_apartman",
+      "enerjiMiktari": 12,
+      "kalanEnerji": 12,
+      "baslangicFiyati": 4.75,
+      "currentPrice": 4.75,
+      "gecerlilikSuresi": 60,
+      "aciklama": "Fiyat piyasa ortalamasının üzerinde olduğu için reddedildi",
+      "mahalle": "Merkez Mahallesi",
+      "panelGucu": 12,
+      "onayDurumu": "Reddedildi",
+      "ilanDurumu": "Reddedildi",
+      "priceHistory": [
+        {
+          "time": "2026-05-22T06:00:00.000Z",
+          "price": 4.77
+        },
+        {
+          "time": "2026-05-22T06:20:00.000Z",
+          "price": 4.81
+        },
+        {
+          "time": "2026-05-22T06:40:00.000Z",
+          "price": 4.85
+        },
+        {
+          "time": "2026-05-22T07:00:00.000Z",
+          "price": 4.87
+        },
+        {
+          "time": "2026-05-22T07:20:00.000Z",
+          "price": 4.88
+        },
+        {
+          "time": "2026-05-22T07:40:00.000Z",
+          "price": 4.88
+        },
+        {
+          "time": "2026-05-22T08:00:00.000Z",
+          "price": 4.86
+        },
+        {
+          "time": "2026-05-22T08:20:00.000Z",
+          "price": 4.84
+        },
+        {
+          "time": "2026-05-22T08:40:00.000Z",
+          "price": 4.8
+        },
+        {
+          "time": "2026-05-22T09:00:00.000Z",
+          "price": 4.76
+        },
+        {
+          "time": "2026-05-22T09:20:00.000Z",
+          "price": 4.73
+        },
+        {
+          "time": "2026-05-22T09:40:00.000Z",
+          "price": 4.7
+        },
+        {
+          "time": "2026-05-22T10:00:00.000Z",
+          "price": 4.68
+        },
+        {
+          "time": "2026-05-22T10:20:00.000Z",
+          "price": 4.67
+        },
+        {
+          "time": "2026-05-22T10:40:00.000Z",
+          "price": 4.67
+        },
+        {
+          "time": "2026-05-22T11:00:00.000Z",
+          "price": 4.69
+        },
+        {
+          "time": "2026-05-22T11:20:00.000Z",
+          "price": 4.71
+        },
+        {
+          "time": "2026-05-22T11:40:00.000Z",
+          "price": 4.74
+        },
+        {
+          "time": "2026-05-22T12:00:00.000Z",
+          "price": 4.78
+        },
+        {
+          "time": "2026-05-22T12:20:00.000Z",
+          "price": 4.81
+        },
+        {
+          "time": "2026-05-22T12:40:00.000Z",
+          "price": 4.83
+        },
+        {
+          "time": "2026-05-22T13:00:00.000Z",
+          "price": 4.85
+        },
+        {
+          "time": "2026-05-22T13:20:00.000Z",
+          "price": 4.85
+        },
+        {
+          "time": "2026-05-22T13:40:00.000Z",
+          "price": 4.84
+        }
+      ],
+      "seed": 91,
+      "createdAt": "2026-05-21T11:20:00.000Z"
+    }
+  ],
+  "trades": [
+    {
+      "id": "trd_9001",
+      "ilanId": "lst_1001",
+      "ureticiId": "usr_uretici",
+      "aliciId": "usr_alici",
+      "enerjiMiktari": 6,
+      "islemFiyati": 3.28,
+      "toplamTutar": 19.68,
+      "etki": {
+        "co2Kg": 2.52,
+        "yerelEkonomiTl": 14.17,
+        "agacEsdegeri": 0.11
+      },
+      "certificateId": "CERT-2026-9001",
+      "islemTarihi": "2026-05-19T10:30:00.000Z"
+    },
+    {
+      "id": "trd_demo_001",
+      "aliciId": "usr_alici",
+      "ureticiId": "usr_demo_site",
+      "listingId": "lst_demo_site_01",
+      "enerjiMiktari": 7.5,
+      "islemFiyati": 3.54,
+      "toplamTutar": 26.55,
+      "islemTarihi": "2026-05-22T09:15:00.000Z",
+      "etki": {
+        "co2Kg": 3.15,
+        "yerelEkonomiTl": 19.12,
+        "agacEsdegeri": 0.13
+      },
+      "certificateId": "CERT-DEMO-001"
+    },
+    {
+      "id": "trd_demo_002",
+      "aliciId": "usr_demo_kafe",
+      "ureticiId": "usr_demo_okul",
+      "listingId": "lst_demo_okul_01",
+      "enerjiMiktari": 9,
+      "islemFiyati": 3.46,
+      "toplamTutar": 31.14,
+      "islemTarihi": "2026-05-22T09:45:00.000Z",
+      "etki": {
+        "co2Kg": 3.78,
+        "yerelEkonomiTl": 22.42,
+        "agacEsdegeri": 0.16
+      },
+      "certificateId": "CERT-DEMO-002"
+    },
+    {
+      "id": "trd_demo_003",
+      "aliciId": "usr_demo_market",
+      "ureticiId": "usr_demo_site",
+      "listingId": "lst_demo_site_01",
+      "enerjiMiktari": 12,
+      "islemFiyati": 3.61,
+      "toplamTutar": 43.32,
+      "islemTarihi": "2026-05-22T10:20:00.000Z",
+      "etki": {
+        "co2Kg": 5.04,
+        "yerelEkonomiTl": 31.19,
+        "agacEsdegeri": 0.22
+      },
+      "certificateId": "CERT-DEMO-003"
+    },
+    {
+      "id": "trd_demo_004",
+      "aliciId": "usr_demo_saglik",
+      "ureticiId": "usr_demo_okul",
+      "listingId": "lst_demo_okul_01",
+      "enerjiMiktari": 6.5,
+      "islemFiyati": 3.49,
+      "toplamTutar": 22.69,
+      "islemTarihi": "2026-05-22T10:55:00.000Z",
+      "etki": {
+        "co2Kg": 2.73,
+        "yerelEkonomiTl": 16.34,
+        "agacEsdegeri": 0.12
+      },
+      "certificateId": "CERT-DEMO-004"
+    },
+    {
+      "id": "trd_demo_005",
+      "aliciId": "usr_alici",
+      "ureticiId": "usr_demo_apartman",
+      "listingId": "lst_demo_apartman_01",
+      "enerjiMiktari": 4.5,
+      "islemFiyati": 3.32,
+      "toplamTutar": 14.94,
+      "islemTarihi": "2026-05-22T11:30:00.000Z",
+      "etki": {
+        "co2Kg": 1.89,
+        "yerelEkonomiTl": 10.76,
+        "agacEsdegeri": 0.08
+      },
+      "certificateId": "CERT-DEMO-005"
+    },
+    {
+      "id": "trd_demo_006",
+      "aliciId": "usr_demo_kafe",
+      "ureticiId": "usr_uretici",
+      "listingId": "lst_1001",
+      "enerjiMiktari": 5,
+      "islemFiyati": 3.25,
+      "toplamTutar": 16.25,
+      "islemTarihi": "2026-05-21T14:05:00.000Z",
+      "etki": {
+        "co2Kg": 2.1,
+        "yerelEkonomiTl": 11.7,
+        "agacEsdegeri": 0.09
+      },
+      "certificateId": "CERT-DEMO-006"
+    },
+    {
+      "id": "trd_demo_007",
+      "aliciId": "usr_demo_market",
+      "ureticiId": "usr_admin",
+      "listingId": "lst_1002",
+      "enerjiMiktari": 8,
+      "islemFiyati": 3.42,
+      "toplamTutar": 27.36,
+      "islemTarihi": "2026-05-21T15:10:00.000Z",
+      "etki": {
+        "co2Kg": 3.36,
+        "yerelEkonomiTl": 19.7,
+        "agacEsdegeri": 0.14
+      },
+      "certificateId": "CERT-DEMO-007"
+    },
+    {
+      "id": "trd_demo_008",
+      "aliciId": "usr_demo_saglik",
+      "ureticiId": "usr_demo_site",
+      "listingId": "lst_demo_sold_01",
+      "enerjiMiktari": 16,
+      "islemFiyati": 3.24,
+      "toplamTutar": 51.84,
+      "islemTarihi": "2026-05-21T16:30:00.000Z",
+      "etki": {
+        "co2Kg": 6.72,
+        "yerelEkonomiTl": 37.32,
+        "agacEsdegeri": 0.29
+      },
+      "certificateId": "CERT-DEMO-008"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg_7001",
+      "adSoyad": "Deneme Kullanıcısı",
+      "email": "deneme@example.com",
+      "konu": "Temiz enerji üyeliği",
+      "mesaj": "Mahallemdeki üreticileri görmek istiyorum.",
+      "createdAt": "2026-05-19T10:20:00.000Z",
+      "durum": "Yeni"
+    },
+    {
+      "id": "msg_demo_001",
+      "adSoyad": "Site Yöneticisi",
+      "email": "yonetim@yesilvadi.local",
+      "konu": "Toplu üretici hesabı",
+      "mesaj": "Sitedeki ortak güneş panelleri için toplu üretici hesabı açmak istiyoruz.",
+      "durum": "Yeni",
+      "createdAt": "2026-05-22T08:40:00.000Z"
+    },
+    {
+      "id": "msg_demo_002",
+      "adSoyad": "Mahalle Muhtarlığı",
+      "email": "muhtarlik@example.com",
+      "konu": "Mahalle raporu",
+      "mesaj": "Haftalık temiz enerji tasarruf raporunu almak istiyoruz.",
+      "durum": "Yeni",
+      "createdAt": "2026-05-22T09:20:00.000Z"
+    },
+    {
+      "id": "msg_demo_003",
+      "adSoyad": "Enerji Market",
+      "email": "market@solarchain.local",
+      "konu": "Fiyat bildirimi",
+      "mesaj": "Ortalama fiyat 3.30 TL altına düşünce bildirim almak istiyoruz.",
+      "durum": "Okundu",
+      "createdAt": "2026-05-21T13:45:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf_1",
+      "userId": "usr_uretici",
+      "title": "İlanınız incelemeye alındı",
+      "body": "18.2 kW enerji ilanı yönetici onayı bekliyor.",
+      "type": "ilan",
+      "read": false,
+      "createdAt": "2026-05-20T17:03:36.268Z"
+    },
+    {
+      "id": "ntf_demo_001",
+      "userId": "usr_uretici",
+      "title": "Simülasyon ilanı beklemede",
+      "body": "19.5 kW demo ilanınız yönetici onayı bekliyor.",
+      "type": "ilan",
+      "read": false,
+      "createdAt": "2026-05-22T09:45:00.000Z"
+    },
+    {
+      "id": "ntf_demo_002",
+      "userId": "usr_demo_site",
+      "title": "Yeni satış gerçekleşti",
+      "body": "Yeşil Vadi Sitesi ilanından 12 kW enerji satıldı.",
+      "type": "satis",
+      "read": false,
+      "createdAt": "2026-05-22T10:21:00.000Z"
+    },
+    {
+      "id": "ntf_demo_003",
+      "userId": "usr_alici",
+      "title": "Temiz enerji sertifikası oluştu",
+      "body": "7.5 kW alımınız için CERT-DEMO-001 sertifikası oluşturuldu.",
+      "type": "sertifika",
+      "read": false,
+      "createdAt": "2026-05-22T09:16:00.000Z"
+    },
+    {
+      "id": "ntf_demo_004",
+      "userId": "usr_admin",
+      "title": "Onay bekleyen ilan var",
+      "body": "Güneşli Mahallesi için yeni demo ilan inceleme bekliyor.",
+      "type": "admin",
+      "read": false,
+      "createdAt": "2026-05-22T09:46:00.000Z"
+    }
+  ],
+  "sessions": {},
+  "counters": {
+    "usr": 2000,
+    "lst": 2000,
+    "trd": 9003,
+    "msg": 7003,
+    "ntf": 2000
+  }
+}

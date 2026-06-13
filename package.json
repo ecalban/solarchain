@@ -1,0 +1,11 @@
+{
+  "name": "solarchain-projesi-sunum",
+  "version": "1.0.0",
+  "description": "SolarChain sunum icin sadeleştirilmiş proje.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Eren Çalban",
+  "license": "MIT"
+}
